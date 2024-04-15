@@ -3,10 +3,18 @@
         "title": "Velkommen",
         "description": "Herzlich Willkommen auf meiner Webseite. Hier finden Sie Informationen über mich und meine Projekte."
     },
+    "about": {
+        "title": "Om mig",
+        "description": "Jeg er en softwareudvikler fra Danmark. Jeg har arbejdet med softwareudvikling i over 10 år og har erfaring med en lang række teknologier."
+    },
     "nav": {
         "home": {
             "title": "Velkommen",
             "path": "/"
+        },
+        "about": {
+            "title": "Om mig",
+            "path": "/about"
         }
     }
 }

@@ -11,11 +11,18 @@
         $language =  getDecodedContents( __DIR__ . "/language/en.json");
     }
 
-    $title = $language->home->title;
-    $description = $language->home->description;
+    $path = $_SERVER["REQUEST_URI"];
+    if($path == "/"){
+        $path = "home";
+    }else{
+        $path = substr($path, 1);
+    }
+
+    $title = $language->{$path}->title;
+    $description = $language->{$path}->description;
     $nav = $language->nav;
 
     include "components/Head/index.php";
     include "components/Header/index.php";
-    include "pages".$path.".php";
+    include "pages/".$path.".php";
     include "components/Footer/index.php";
