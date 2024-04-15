@@ -1,0 +1,5 @@
+/* General styleing */
+@import "normalize.css";
+@import "variables.css";
+/* Components */
+@import "../components/Header/Style.css";
