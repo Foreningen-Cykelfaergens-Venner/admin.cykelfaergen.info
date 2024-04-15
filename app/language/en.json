@@ -1,16 +1,21 @@
 {
-    "home": {
-        "title": "Welcome",
-        "description": "Herzlich Willkommen auf meiner Webseite. Hier finden Sie Informationen über mich und meine Projekte."
+    "pages": {
+        "home": {
+            "title": "Welcome",
+            "description": "Herzlich Willkommen auf meiner Webseite. Hier finden Sie Informationen über mich und meine Projekte."
+        },
+        "errors" : {
+            "404": {
+                "title": "404 - Page not found",
+                "description": "The page you are looking for does not exist."
+            }
+        }
     },
     "nav": {
         "home": {
             "title": "Welcome",
             "path": "/"
         }
-    },
-    "404": {
-        "title": "404 - Page not found",
-        "description": "The page you are looking for does not exist."
     }
+    
 }

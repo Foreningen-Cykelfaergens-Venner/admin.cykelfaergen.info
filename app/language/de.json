@@ -1,7 +1,15 @@
 {
-    "home": {
-        "title": "Willkommen",
-        "description": "Herzlich Willkommen auf meiner Webseite. Hier finden Sie Informationen über mich und meine Projekte."
+    "pages": {
+        "home": {
+            "title": "Willkommen",
+            "description": "Herzlich Willkommen auf meiner Webseite. Hier finden Sie Informationen über mich und meine Projekte."
+        },
+        "errors" : {
+            "404": {
+                "title": "404 - Seite nicht gefunden",
+                "description": "Die von Ihnen angeforderte Seite konnte nicht gefunden werden."
+            }
+        }
     },
     "nav": {
         "home": {
@@ -12,9 +20,5 @@
             "title": "Projekte",
             "path": "/projects"
         }
-    },
-    "404": {
-        "title": "Seite nicht gefunden",
-        "description": "Die angeforderte Seite konnte nicht gefunden werden."
     }
 }

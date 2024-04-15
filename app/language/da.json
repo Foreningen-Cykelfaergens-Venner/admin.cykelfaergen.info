@@ -1,11 +1,20 @@
 {
-    "home": {
-        "title": "Velkommen",
-        "description": "Herzlich Willkommen auf meiner Webseite. Hier finden Sie Informationen über mich und meine Projekte."
-    },
-    "about": {
-        "title": "Om mig",
-        "description": "Jeg er en softwareudvikler fra Danmark. Jeg har arbejdet med softwareudvikling i over 10 år og har erfaring med en lang række teknologier."
+    
+    "pages": {
+        "home": {
+            "title": "Velkommen",
+            "description": "Herzlich Willkommen auf meiner Webseite. Hier finden Sie Informationen über mich und meine Projekte."
+        },
+        "about": {
+            "title": "Om mig",
+            "description": "Jeg er en softwareudvikler fra Danmark. Jeg har arbejdet med softwareudvikling i over 10 år og har erfaring med en lang række teknologier."
+        },
+        "errors": {
+            "404": {
+                "title": "Siden blev ikke fundet",
+                "description": "Siden du leder efter blev ikke fundet. Prøv at gå tilbage til forsiden."
+            }
+        }
     },
     "nav": {
         "home": {
@@ -16,9 +25,5 @@
             "title": "Om mig",
             "path": "/about"
         }
-    },
-    "404": {
-        "title": "Siden blev ikke fundet",
-        "description": "Siden du leder efter kunne ikke findes. Prøv at gå tilbage til forsiden."
     }
 }
