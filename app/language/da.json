@@ -1,0 +1,12 @@
+{
+    "home": {
+        "title": "Velkommen",
+        "description": "Herzlich Willkommen auf meiner Webseite. Hier finden Sie Informationen über mich und meine Projekte."
+    },
+    "nav": {
+        "home": {
+            "title": "Velkommen",
+            "path": "/"
+        }
+    }
+}
