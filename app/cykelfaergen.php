@@ -18,7 +18,7 @@
         $path = substr($path, 1);
     }
 
-    if(!file_exists("pages/".$path.".php")){
+    if(!file_exists(__DIR__."/pages/".$path.".php")){
         $path = "404";
     }
 
