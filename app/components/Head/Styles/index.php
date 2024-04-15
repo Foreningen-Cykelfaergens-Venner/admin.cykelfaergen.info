@@ -1,1 +1,1 @@
-<link href="app/Styles/index.css" rel="stylesheet">
+<link href="app/styles/index.css" rel="stylesheet">
