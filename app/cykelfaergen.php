@@ -18,6 +18,10 @@
         $path = substr($path, 1);
     }
 
+    if(!file_exists("pages/".$path.".php")){
+        $path = "404";
+    }
+
     $title = $language->{$path}->title;
     $description = $language->{$path}->description;
     $nav = $language->nav;

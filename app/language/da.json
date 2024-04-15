@@ -16,5 +16,9 @@
             "title": "Om mig",
             "path": "/about"
         }
+    },
+    "404": {
+        "title": "Siden blev ikke fundet",
+        "description": "Siden du leder efter kunne ikke findes. Prøv at gå tilbage til forsiden."
     }
 }
