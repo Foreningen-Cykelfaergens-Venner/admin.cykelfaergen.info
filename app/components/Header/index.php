@@ -1,5 +1,5 @@
 <header>
-    <h1>Header</h1>
+    <h1>Cykelfaegen Admin</h1>
     <nav>
         <ul>
             <li><a href="#">Home</a></li>
