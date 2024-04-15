@@ -1,1 +1,1 @@
-<h1>Cykelfaergen</h1>
+<h1>Foreningen Cykelfærgens Venner | Admin</h1>
