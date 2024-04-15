@@ -2,5 +2,15 @@
     "home": {
         "title": "Willkommen",
         "description": "Herzlich Willkommen auf meiner Webseite. Hier finden Sie Informationen über mich und meine Projekte."
+    },
+    "nav": {
+        "home": {
+            "title": "Willkommen",
+            "path": "/"
+        },
+        "projects": {
+            "title": "Projekte",
+            "path": "/projects"
+        }
     }
 }

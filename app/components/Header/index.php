@@ -1,10 +1,10 @@
 <header>
     <h1>Cykelfaegen Admin</h1>
     <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
+        <?php
+            foreach ($nav as $key => $value) {
+                echo "<a href='$value->path'>" . $value->title . "</a>";
+            }
+        ?>
     </nav>
 </header>
