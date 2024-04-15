@@ -17,5 +17,5 @@
 
     include "components/Head/index.php";
     include "components/Header/index.php";
-    include "pages/home.php";
+    include "pages".$path.".php";
     include "components/Footer/index.php";
