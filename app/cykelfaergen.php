@@ -1,5 +1,6 @@
 <?php
     include "functions/getDecodedContents.php";
+    require __DIR__."/../database/connect.php";
     
     $language = getDecodedContents( __DIR__ .  "/language/da.json");
     if(isset($_COOKIE["language"]) && $_COOKIE["language"] == "da"){
